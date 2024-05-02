@@ -1,3 +1,29 @@
 .twoDice{
 display: flex;
 }
+
+
+/* Styling rolldice button */
+.Dice-not-rolling { 
+    
+  
+    border: 0px; 
+    border-radius: 10px; 
+    color: white; 
+    background-color: black; 
+   
+} 
+  
+/* Setting hover effect on button */
+.RollDice button:hover { 
+    cursor: pointer; 
+} 
+  
+.Dice-rolling { 
+    border: 0px; 
+    border-radius: 10px; 
+    color: white; 
+    
+    background-color: darkslateblue !important; 
+    opacity: 0.7
+}

@@ -52,10 +52,10 @@ class RollDice extends Component{
                     <Die rolling = {this.state.rolling} number ={this.state.diceNumber[1]} />
                 </div>
                 
-                <button 
+                <button className={this.state.rolling ? "Dice-rolling" : "Dice-not-rolling" }
                     disabled={this.state.rolling} 
                     onClick={this.randomNumber}> 
-                    {this.state.rolling ? 'Rolling' : 'Roll Dice!'} 
+                    {this.state.rolling ? 'Rolling...' : 'Roll Dice!'} 
                 </button> 
 
             </div>
